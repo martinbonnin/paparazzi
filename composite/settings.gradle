@@ -1,6 +1,0 @@
-rootProject.name="composite"
-
-include ":sample"
-project(':sample').projectDir = file('../sample')
-includeBuild("../")
-

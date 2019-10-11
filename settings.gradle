@@ -2,4 +2,4 @@ rootProject.name = 'paparazzi-parent'
 
 include ':paparazzi'
 include ':paparazzi-gradle-plugin'
-include ':libs:layoutlib'
+//include ':libs:layoutlib' // force the composite build to get the layoutlib from OSS
